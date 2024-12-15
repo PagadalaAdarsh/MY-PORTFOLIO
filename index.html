@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">AdvanceConcepts</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="social-icon twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Adarsh</div>
+          <div class="text-three">Full Stack Web Developer</div>
+          
+        </div>
+        <div class="button">
+          <button>
+            <a href="mailto:adarshpagadala6@gmail.com?subject=Hiring Inquiry&body=Hello, I would like to hire you for your services." class="hire-me-btn">
+              Hire Me
+            </a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="PortfolioPhoto.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Developing Web Application is My Passion</div>
+            <p>My name is Adarsh. Iam from AndhraPradesh. I have completed my bachelor's degree in the stream of Computer Science and Engineering from Viswam Engineering College, Madanapalli.
+              My short term goal is to get a job in a reputed company and my long term goal is to achieve a higher position in that same company.
+              I am passionate about learning and spreading my knowledge. 
+              I am hard-working although quick learner and self motivated person believing in myself.
+              I am intrested in working with a team and I can complete my work with dedication.
+              My hobbies are playing cricket and watching movies, of the two I really enjoy playing cricket because it keeps me active and teaches me teamwork and strategy.
+              I love also watching movies for my relaxation.These activities keeps me to stay balanced and energetic.
+              Developing web applications is my passion for that I learned skills like HTML, CSS, JavaScript, Java. Iam focusing on improving my skills for becoming a good developer.
+              </p>
+            <!-- Download CV Button -->
+<div class="button">
+  <a href="c:\Users\adars\Downloads\AdarshPResume.pdf" download="My_CV.pdf" class="download-cv-button">Download CV</a>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Intern At KodNest</div>
+            <p>During My College I got placement in KodNest as an intern, where I completed learning Java Full Stack Web development which includes Technical skills like Java, HTML, CSS, MySql and JavaScript.</p>
+            <br />
+            <div class="topic">Experience as Employee</div>
+            <div class="experience">
+              <div class="num">0</div>
+              <div class="exp">
+                Years Of <br />
+                Experience(Fresher)
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Java</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">MySql</div>
+              <div class="per">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Advance Concepts and Frameworks</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">JDBC</div>
+            <p>As part of my learning journey in Java Database Connectivity (JDBC), I developed multiple projects that demonstrate my ability to connect Java applications with relational databases. These projects focus on performing CRUD operations, managing complex queries, and ensuring efficient data retrieval.
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">JDBC Project:</span> 
+              I developed Student Management System Application and Transaction Management Application by using Java, JDBC, MySQL.
+            </p>
+             </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Hibernate</div>
+            <p>I have worked on multiple projects utilizing the Hibernate Framework to implement Object-Relational Mapping (ORM) for Java applications. 
+              Hibernate simplifies database interactions by allowing developers to work with Java objects while seamlessly mapping them to relational database tables.
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">Hibernate Project:</span> 
+              I developed an Employee Management System that performs CRUD (Create, Read, Update, Delete) operations using the Hibernate Framework. This project helped me gain a solid understanding of Object-Relational Mapping (ORM) in Java and how Hibernate simplifies working with relational databases.
+            </p>
+             </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Servlet</div>
+            <p>
+              I have worked on several Servlet-based projects that integrate with JDBC for database connectivity, 
+              showcasing my skills in web development using Java Servlet API. Initially I started with basic projects to complex ones like performing CRUD operations and building login dashboard web app.
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">Servlet Project:</span> 
+              I Built a Login Dashboard where users can log in with their credentials. 
+              This project utilized Servlets to handle login logic, validated user input, 
+              and directed authenticated users to their respective dashboards.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">MVC Design Pattern</div>
+            <p>
+              I have worked on projects using the MVC (Model-View-Controller) design pattern, 
+              which helps in organizing code and separating logic into three layers.
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">MVC Project:</span> 
+              In one of my projects, I implemented a Login Controller and a Registration Controller. 
+              These controllers handle user authentication and registration processes, ensuring smooth data handling between the user interface (View) and the backend (Model).
+            </p>
+           </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Spring and SpringBoot</div>
+            <p>I have worked on various projects using Spring and Spring Boot, where I gained hands-on experience in building enterprise-level applications. With Spring, I utilized its core features such as Dependency Injection, AOP, and Spring MVC to develop scalable and maintainable applications. 
+              I also used Spring Boot to simplify the development process by taking advantage of its auto-configuration and embedded server features. 
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">Spring and SpringBoot Project:</span> 
+              I build a simple Student Management System web application by using Spring Boot to manage student records with basic CRUD operations.
+            </p>
+           </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">React.js</div>
+            <p>React.js is a popular JavaScript library used for building dynamic and responsive user interfaces. 
+              It allows developers to create reusable UI components and efficiently manage application states. I developed several web applications using React.js
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">React.js Project:</span> 
+              A Counter App with functionality to increment, decrement, and reset values dynamically, demonstrating state management using React hooks and 
+              An E-commerce App Model featuring product selection, a shopping cart, checkout, and payment simulation, showcasing component-based architecture and efficient data flow handling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+
+      <div class="content">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to say hello, feel free to reach out to me!</p>
+        
+        <div class="contact-details">
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:adarshpagadala6@gmail.com">adarshpagadala6@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:9014046027">9014046027</a></li>
+            <li><strong>Address:</strong> 1-34, Bonthavaripalli V, PTM, INDIA</li>
+          </ul>
+          
+          <div class="social-links">
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-link">Facebook</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://www.instagram.com/your-profile" target="_blank" class="social-link">Instagram</a>
+          </div>
+        </div>
+    
+        <h3>Or Send Me a Message</h3>
+        <form action="mailto:adarshpagadala6@gmail.com" method="POST" enctype="multipart/form-data">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+
+
+
+      <div class="content">
+        <div class="text">
+          <div class="topic">Did Any Main Project?</div>
+          <p>
+            <br />
+              <span style="font-weight: bold; font-size: 20px;">Image Enhancement with Application of Local and Global Enhancement Methods for dark Images.</span> 
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">Project Goal : </span>
+              In my final year project, I focused on improving the quality of underexposed images. The project aimed to enhance dark images by applying two types of techniques that are local and global enhancement methods.
+              <br />
+              <br />
+              <span style="font-weight: bold; font-size: 20px;">Tools and Techniques Used : </span>For Global Enhancement, I used Histogram Equalization, Contrast Stretching, Gamma Correction which improves the overall brightness of the image. 
+              For Local Enhancement, I used Adaptive Histogram Equalization, Local Contrast Enhancement, which works on specific areas of the image to improve details darker regionswithout effecting the bright areas.
+              <br />
+              
+              <span style="font-weight: bold; font-size: 20px;">Outcome : </span>At the end the project, the enhanced images were much clearer, with improved visibility in dark areas. 
+              This project helped me to learn how to combile different image processing techniques to solve real-world problems which is useful in fields like photography, medical imaging, and security.
+          </p>
+          <div class="button">
+            <button>
+              <a href="https://wa.me/9014046027" target="_blank" class="lets-chat-btn">
+                Let's Chat
+              </a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Adarsh</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
